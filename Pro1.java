@@ -4,7 +4,7 @@ public class min
 public static void main(String ar[])throws Exception
 {
     int r,i,k;
-    int p[]=new int[100];
+    int arr[]=new int[100];
 Scanner sc=new Scanner(System.in);
 minimum m1=new minimum();
 String a=new String();
@@ -15,10 +15,10 @@ i=0;
 while(n>0)
 {
 r=n%10;
-p[i++]=r;
+arr[i++]=r;
 n/=10;
 }
-m1.sort(p,k,i);
+m1.sort(arr,k,i);
 }
 public void sort(int l[],int m,int g)
 {
