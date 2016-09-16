@@ -1,8 +1,8 @@
 Scanner sc= Scanner(System.in);
 int n=sc.nextInt();
-int c=0;
-for(int i=1;i<n;i++)
+int l=0;
+for(int i=0;i<n;i++)
 {
-c=c+1;
+l=l+1;
 }
-System.out.println(c);
+System.out.println(l);
